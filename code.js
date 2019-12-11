@@ -34,7 +34,7 @@ firebase.initializeApp(firebaseConfig)
 
 bot.on('ready', () => {
   console.log('Turned on Discord bot');
-  bot.user.setActivity(`${bot.users.size} comrades!`, { type: 'WATCHING' });
+  bot.user.setActivity(`The Blugate Supermarket`, { type: 'WATCHING' });
   bot.channels.get(bot.channels.get(`${mainChatChannelID}`).id).send(`**Resuming processes!** :wave:`)
 })
 
